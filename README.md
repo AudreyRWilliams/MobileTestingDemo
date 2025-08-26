@@ -25,8 +25,8 @@ Minimum iOS: choose one supported by your Xcode (e.g. 12.0) <br>
 3. Save the project inside `~/MobileTestingDemo/ios/HelloSim`. <br><br>
 **Edit the UI and code**
 - Open Main.storyboard:
-     - Drag a Label in the center; set its Text = Hello.
-     - Drag a Button under the label; set its Title = Tap Me.
+     - Drag a **Label** in the center; set its **Text** = `Hello`.
+     - Drag a **Button** under the label; set its Title = `Tap Me`.
      - For both the Label and Button set Accessibility Identifiers (select the element → Identity inspector → Accessibility Identifier):
           - Label: helloLabel
           - Button: tapButton
