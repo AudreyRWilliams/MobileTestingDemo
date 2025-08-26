@@ -1,4 +1,4 @@
-# Mobile Testing Demo
+# Mobile Testing Demo (For Older Systems)
 This project will do the following: 
 - creates a tiny iOS app in **Xcode** (runs in the Simulator),
 - writes a simple **Appium** UI test in **Python** that opens the Simulator, taps a button and verifies label text,
