@@ -31,3 +31,8 @@ Minimum iOS: choose one supported by your Xcode (e.g. 12.0) <br>
           - Label: helloLabel
           - Button: tapButton
      - Create `ViewController.swift`
+- In Interface Builder: Control-drag the Label to helloLabel outlet and the Button to didTap: action (Touch Up Inside).
+
+**Build & test in Simulator**
+
+- Select a simulator (e.g., iPhone 8) and press ▶ Run in Xcode. Confirm tap changes label from Hello to Tapped!.
