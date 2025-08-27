@@ -65,15 +65,15 @@ In a new Terminal window (leave it open): <br>
 <img width="86" height="81" alt="Screen Shot 2025-08-26 at 8 43 16 PM" src="https://github.com/user-attachments/assets/6b6d6026-3780-414e-adfa-8bef6b582551" /> <br>
 If Appium starts OK, you’ll see log output and it will listen on http://0.0.0.0:4723.
 
-If you get errors, read the log for WebDriverAgent issues (I cover that under Troubleshooting below).
+If you get errors, read the log for WebDriverAgent issues.
 ## 7 — Find available Simulator names & runtime versions
-To list simulators and runtimes:
-<img width="233" height="73" alt="Screen Shot 2025-08-26 at 8 45 21 PM" src="https://github.com/user-attachments/assets/0d7dae97-615a-43ee-a44d-f9c4b4960c33" />
+To list simulators and runtimes: <br>
+<img width="233" height="73" alt="Screen Shot 2025-08-26 at 8 45 21 PM" src="https://github.com/user-attachments/assets/0d7dae97-615a-43ee-a44d-f9c4b4960c33" /> <br>
 
 Pick a device and runtime (e.g., iPhone 8 (12.4)), then use those values in deviceName and platformVersion in tests/test_hello.py.
 ## 8 — Run the test
 With Appium running and your virtualenv active:
-- source ~/MobileTestingDemo/venv/bin/activate   # if not already active
+- source ~/MobileTestingDemo/venv/bin/activate       `# if not already active`
 - python3 -m unittest tests/test_hello.py -v
 
 What should happen:
